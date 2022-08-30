@@ -1,0 +1,65 @@
+/*styling the website*/
+:root{
+  --green: #00FF00;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+h1 {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: monospace; /*mishti photos*/
+    font-size: 2.5em; /*alter size later to be massive*/
+}
+
+#msg { /*for my baby if she ever misses her cat*/
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: monospace;
+    font-size: 1.0em;
+  }
+
+
+
+  .light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+  }
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+  }
+
+  .btn{
+    font-size: 1.25em;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    
+   
+    border: none;
+  
+  }
+
+  .center {
+    font-size: 1.25em;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    
+   
+    border: none;
+  }
+  
